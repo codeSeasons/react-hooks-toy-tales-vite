@@ -47,18 +47,6 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
-    },
-    {
-      "id": "b384",
-      "name": "robot",
-      "image": "robottoy.img",
-      "likes": 0
-    },
-    {
-      "id": "5c8a",
-      "name": "robot2",
-      "image": "somepic",
-      "likes": 0
     }
   ]
 }
