@@ -22,10 +22,19 @@ function App() {
     setShowForm((showForm) => !showForm);
   }
 
+  function handleClick() {
+    setShowForm((showForm) => !showForm);
+  }
+
+  function handleAddToy(newToy) {
+    setToys((currentToys) => [...currentToys, newToy]);
+  }
+
   return (
     <>
       <Header />
-      {showForm ? <ToyForm /> : null}
+      {showForm ? <ToyForm onAddToy={handleAddToy} /> : null}
+
       <div className="buttonContainer">
         <button onClick={handleClick}>Add a Toy</button>
       </div>
